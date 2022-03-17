@@ -1,9 +1,13 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Arland Fran</title>
+      </Head>
       <figure className="p-8">
         <figcaption className="text-white tracking-[0.2rem] font-light mb-2">
           pov:
