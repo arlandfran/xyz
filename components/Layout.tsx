@@ -1,5 +1,3 @@
-import Texture from "./Texture";
-
 interface LayoutProps {
   children: React.ReactNode;
 }
@@ -7,10 +5,9 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <>
-      <main className="flex flex-col h-screen w-full justify-center items-center">
+      <main className="flex flex-col items-center justify-center w-full h-screen">
         {children}
       </main>
-      <Texture></Texture>
     </>
   );
 };
